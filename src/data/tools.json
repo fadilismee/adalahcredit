@@ -1,5 +1,29 @@
 [
   {
+    "id": "8",
+    "title": "Figma free credit 😸",
+    "category": "Design",
+    "tag": "Terbatas",
+    "date": "2026-06-08",
+    "desc": "Time limited\nJadi waktu sangat terbatas, kouta terbatas juga",
+    "body": "Ga ada tutorial lengkap, semua sesuai video yang ada di thread",
+    "features": [
+      "Free credit",
+      "Premium access",
+      "Gratis 😹"
+    ],
+    "images": [
+      "/img/figma-free-credit-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Akses",
+        "url": "https://figma.bot/4o7EDMQ"
+      }
+    ],
+    "color": "from-violet-500/20 to-purple-500/10"
+  },
+  {
     "id": "7",
     "title": "Adobe Free Wak 😸",
     "category": "AI Tools",
@@ -34,28 +58,5 @@
       }
     ],
     "color": "from-sky-500/20 to-blue-500/10"
-  },
-  {
-    "id": "8",
-    "title": "Figma free credit 😸",
-    "category": "Design",
-    "tag": "Terbatas",
-    "desc": "Time limited\nJadi waktu sangat terbatas, kouta terbatas juga",
-    "body": "Ga ada tutorial lengkap, semua sesuai video yang ada di thread",
-    "features": [
-      "Free credit",
-      "Premium access",
-      "Gratis 😹"
-    ],
-    "images": [
-      "/img/figma-free-credit-1.jpg"
-    ],
-    "links": [
-      {
-        "label": "Akses",
-        "url": "https://figma.bot/4o7EDMQ"
-      }
-    ],
-    "color": "from-violet-500/20 to-purple-500/10"
   }
 ]
