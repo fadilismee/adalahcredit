@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   creator: "adalahcredit",
   metadataBase: new URL("https://adalahcredit.vercel.app"),
   verification: {
-    google: "DinYk7pdd2KWrF7ci949ZhIWPn3Suv-x4xtRFXK3eak",
+    google: "3-3Fizj6ZqIiAix04e8xBbDLjQr2yI-5SOzAkTUUnX8",
   },
   openGraph: {
     type: "website",
