@@ -69,7 +69,7 @@ export default function HomePage() {
             <span className="text-sm font-bold bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">FreeTools</span>
             <div className="h-4 w-px bg-white/10" />
             <a href="#tools" className="text-xs text-white/50 hover:text-white transition-colors">Tools</a>
-            <a href="#about" className="text-xs text-white/50 hover:text-white transition-colors">About</a>
+            <a href="https://www.fadilismee.my.id/" className="text-xs text-white/50 hover:text-white transition-colors">About</a>
           </div>
         </nav>
 
@@ -81,13 +81,13 @@ export default function HomePage() {
           </motion.div>
 
           <motion.h1 initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, ease: EASE }} className="text-[clamp(2.5rem,8vw,6rem)] font-bold leading-[0.9] tracking-[-0.03em] max-w-4xl">
-            <span className="bg-gradient-to-b from-white via-white to-white/50 bg-clip-text text-transparent">Discover Free</span>
+            <span className="bg-gradient-to-b from-white via-white to-white/50 bg-clip-text text-transparent">adalahcredit</span>
             <br />
             <span className="bg-gradient-to-r from-violet-400 via-blue-400 to-emerald-400 bg-clip-text text-transparent">Tools & Resources</span>
           </motion.h1>
 
           <motion.p initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2, duration: 0.8, ease: EASE }} className="mt-6 text-base sm:text-lg text-white/50 max-w-lg leading-relaxed">
-            Koleksi tools gratis terbaik untuk developer, designer, dan creator. Diupdate setiap minggu.
+            Koleksi tools gratis terbaik untuk developer, designer, dan creator. Diupdate setiap Hari wak😸.
           </motion.p>
 
           <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.4, duration: 0.8, ease: EASE }} className="mt-8 flex gap-3">
@@ -99,7 +99,7 @@ export default function HomePage() {
 
           {/* Stats */}
           <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6, duration: 0.8, ease: EASE }} className="mt-16 flex gap-8 sm:gap-12">
-            {[{ n: "50+", l: "Free Tools" }, { n: "6", l: "Categories" }, { n: "Weekly", l: "Updates" }].map(s => (
+            {[{ n: "50+", l: "Free Tools" }, { n: "6", l: "Categories" }, { n: "Tiap-Hari😸", l: "Updates" }].map(s => (
               <div key={s.l} className="text-center">
                 <p className="text-xl sm:text-2xl font-bold text-white">{s.n}</p>
                 <p className="text-xs text-white/40 mt-1">{s.l}</p>
@@ -140,7 +140,7 @@ export default function HomePage() {
       <section className="py-16 sm:py-24 px-5 sm:px-8">
         <Reveal>
           <div className="max-w-4xl mx-auto bg-white/[0.02] border border-white/[0.06] rounded-2xl p-6 sm:p-10 md:p-14 text-center">
-            <span className="text-[11px] tracking-[0.25em] uppercase font-mono text-violet-400/70">Why FreeTools?</span>
+            <span className="text-[11px] tracking-[0.25em] uppercase font-mono text-violet-400/70">Why Adalahcredit?</span>
             <h2 className="mt-6 text-2xl sm:text-3xl md:text-4xl max-w-2xl mx-auto leading-[1.1] text-white/90">
               <span>Kami kurasikan </span>
               <span className="font-serif italic text-white/50">tools gratis terbaik </span>
@@ -148,7 +148,7 @@ export default function HomePage() {
             </h2>
             <div className="mt-10 max-w-2xl mx-auto">
               <ParallaxText
-                text="Setiap tool yang kami share sudah ditest dan diverifikasi. Kami fokus pada tools yang benar-benar gratis — bukan trial, bukan freemium yang nggak berguna. Dari AI tools, design apps, hosting, sampai productivity tools."
+                text="Ini adalah sebuah page ringkasan yang saya miliki. Berisikan tutorial-link dan semua kebutuhan detail yang sudah saya bagikan di dalam threads. Dari AI tools, design apps, hosting, sampai productivity tools, dan banyak lagi."
                 className="text-sm sm:text-base leading-relaxed text-white/60"
               />
             </div>
@@ -162,7 +162,7 @@ export default function HomePage() {
           <Reveal className="text-center mb-12">
             <span className="text-[11px] tracking-[0.2em] uppercase font-mono text-white/30">Featured</span>
             <h2 className="mt-3 text-2xl sm:text-3xl font-bold text-white/90">Tools Gratis Pilihan</h2>
-            <p className="mt-2 text-sm text-white/40">Diupdate setiap minggu dengan tools terbaru</p>
+            <p className="mt-2 text-sm text-white/40">Diupdate setiap Hari wak dengan tools terbaru</p>
           </Reveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {TOOLS.map((tool, idx) => (
@@ -211,11 +211,11 @@ export default function HomePage() {
       {/* ═══ FOOTER ═══ */}
       <footer className="border-t border-white/[0.06] py-8 px-5">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/30">&copy; 2026 FreeTools. Sharing is caring.</p>
+          <p className="text-xs text-white/30">&copy; 2026 Adalahcredit, By @adalahdil.</p>
           <div className="flex gap-4 text-xs text-white/30">
             <span>Built with Next.js</span>
             <span>•</span>
-            <span>Updated Weekly</span>
+            <span>Updated Tiap Hari Wok</span>
           </div>
         </div>
       </footer>
