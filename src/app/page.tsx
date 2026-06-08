@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Sparkles, Zap, Globe, Layers, Search, Star } from "lucide-react";
+import toolsData from "@/data/tools.json";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -44,14 +45,7 @@ const CATEGORIES = [
   { icon: Sparkles, label: "Writing", count: 7 },
 ];
 
-const TOOLS = [
-  { id: "1", title: "ChatGPT Free Tier", category: "AI Tools", desc: "AI chatbot gratis dari OpenAI untuk tanya jawab, coding, dan brainstorming.", tag: "Popular", color: "from-emerald-500/20 to-teal-500/10" },
-  { id: "2", title: "Canva Free", category: "Design", desc: "Platform desain grafis gratis dengan ribuan template untuk sosmed, presentasi, dan poster.", tag: "Essential", color: "from-violet-500/20 to-purple-500/10" },
-  { id: "3", title: "Vercel Hosting", category: "Web Dev", desc: "Deploy website Next.js, React, dan static site gratis dengan SSL dan CDN global.", tag: "Dev", color: "from-blue-500/20 to-cyan-500/10" },
-  { id: "4", title: "Notion Free Plan", category: "Productivity", desc: "All-in-one workspace gratis untuk notes, project management, dan kolaborasi tim.", tag: "Top Pick", color: "from-amber-500/20 to-orange-500/10" },
-  { id: "5", title: "Ubersuggest Free", category: "SEO", desc: "Tool riset keyword gratis dengan data volume pencarian dan difficulty score.", tag: "SEO", color: "from-rose-500/20 to-pink-500/10" },
-  { id: "6", title: "Claude AI", category: "AI Tools", desc: "AI assistant dari Anthropic yang bisa membantu coding, analisis, dan penulisan.", tag: "New", color: "from-indigo-500/20 to-blue-500/10" },
-];
+const TOOLS = toolsData;
 
 export default function HomePage() {
   return (
