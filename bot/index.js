@@ -170,12 +170,14 @@ async function publishTool(data) {
   const tools = JSON.parse(fs.readFileSync(TOOLS_JSON, "utf-8"));
   const newId = String(Math.max(...tools.map((t) => parseInt(t.id)), 0) + 1);
   const color = COLORS[tools.length % COLORS.length];
+  const today = new Date().toISOString().split("T")[0];
 
-  tools.push({
+  tools.unshift({
     id: newId,
     title: data.title,
     category: data.category,
     tag: data.tag,
+    date: today,
     desc: data.desc,
     body: data.body,
     features: data.features,

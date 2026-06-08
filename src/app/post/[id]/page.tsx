@@ -99,6 +99,7 @@ export default function ToolPage({ params }: { params: Promise<{ id: string }> }
               <div className="flex items-center gap-2">
                 <span className="text-[10px] px-2.5 py-1 rounded-full bg-violet-500/10 text-violet-400 border border-violet-500/20 font-mono">{tool.tag}</span>
                 <span className="text-[10px] text-white/30 font-mono">{tool.category}</span>
+                {tool.date && <span className="text-[10px] text-white/20 font-mono ml-auto">{tool.date}</span>}
               </div>
               <h1 className="text-2xl sm:text-3xl font-bold text-white/95">{tool.title}</h1>
               <p className="text-sm text-white/50">{tool.desc}</p>

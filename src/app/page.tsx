@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Sparkles, Zap, Globe, Layers, Search, Star } from "lucide-react";
 import toolsData from "@/data/tools.json";
@@ -167,14 +168,18 @@ export default function HomePage() {
             {TOOLS.map((tool, idx) => (
               <Reveal key={tool.id} delay={idx * 0.06}>
                 <Link href={`/post/${tool.id}`} className="group block rounded-2xl border border-white/[0.06] bg-white/[0.02] overflow-hidden hover:border-white/[0.15] hover:bg-white/[0.04] transition-all">
-                  <div className={`aspect-[2/1] bg-gradient-to-br ${tool.color} flex items-center justify-center relative overflow-hidden`}>
-                    <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:20px_20px]" />
-                    <span className="relative text-2xl font-bold text-white/10 group-hover:text-white/20 transition-colors">{tool.title.split(" ")[0]}</span>
+                  <div className={`aspect-[2/1] bg-gradient-to-br ${tool.color} relative overflow-hidden`}>
+                    {tool.images?.[0] ? (
+                      <Image src={tool.images[0]} alt={tool.title} fill className="object-cover" unoptimized />
+                    ) : (
+                      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:20px_20px]" />
+                    )}
                   </div>
                   <div className="p-5 space-y-2.5">
                     <div className="flex items-center gap-2">
                       <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/[0.06] text-white/40 font-mono">{tool.tag}</span>
                       <span className="text-[10px] text-white/25 font-mono">{tool.category}</span>
+                      {tool.date && <span className="text-[10px] text-white/20 font-mono ml-auto">{tool.date}</span>}
                     </div>
                     <h3 className="text-base font-semibold text-white/90 group-hover:text-white transition-colors">{tool.title}</h3>
                     <p className="text-xs text-white/40 leading-relaxed line-clamp-2">{tool.desc}</p>
