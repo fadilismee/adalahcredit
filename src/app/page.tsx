@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
@@ -49,8 +49,31 @@ const CATEGORIES = [
 const TOOLS = toolsData;
 
 export default function HomePage() {
+  const [showAnnouncement, setShowAnnouncement] = useState(false);
+
+  useEffect(() => {
+    if (!sessionStorage.getItem("announcement_seen")) {
+      setShowAnnouncement(true);
+    }
+  }, []);
+
+  const dismissAnnouncement = () => {
+    setShowAnnouncement(false);
+    sessionStorage.setItem("announcement_seen", "1");
+  };
+
   return (
     <div className="min-h-screen" style={{ background: "#050505" }}>
+
+      {/* Announcement Popup */}
+      {showAnnouncement && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={dismissAnnouncement}>
+          <div className="bg-zinc-900 border border-white/10 rounded-xl p-6 max-w-sm text-center space-y-3" onClick={(e) => e.stopPropagation()}>
+            <p className="text-sm text-white/70">Mohon maaf wak, untuk website masih kurang bagus. Akan disegerakan untuk tampilan lebih baik 🙏</p>
+            <button onClick={dismissAnnouncement} className="text-xs text-white/40 hover:text-white border border-white/10 rounded-lg px-4 py-2 transition-colors">Oke, paham</button>
+          </div>
+        </div>
+      )}
 
       {/* ═══ HERO ═══ */}
       <section className="relative min-h-screen flex flex-col">
