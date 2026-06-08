@@ -1,5 +1,29 @@
 [
   {
+    "id": "10",
+    "title": "Kiro Power Plan 😸",
+    "category": "AI Tools",
+    "tag": "Dev",
+    "date": "2026-06-08",
+    "desc": "Ini kiro power plan dengan beberapa tahapan. Mungkin ga semua ip device works cara ini, saya pribadi satu doang yang bisa di pake. Semua hal yang saya share bersifat uncommercial ga saya jual atau bagaimana, silakan ikuti page saya di thread @adalahdil",
+    "body": "1️⃣ Register an AWS account\n* Type \"aws free tier\" in Google\n* Use a business email / custom domain (safer)\n* Must use Incognito Mode\n* After registration, you get $100 in AWS Credits\n\n2️⃣ Increase credits to $200\n* AWS has several tasks/get started challenges\n* Complete the tasks until you get $200\n* After finishing each mission, don't forget to terminate / delete databases, etc.\n\n3️⃣ Activate IAM Identity Center\n* Open AWS IAM Identity Center\n* Select region Frankfurt (eu-central-1) / us-east-1\n* Set up Identity Center\n* Add the users you want to use\n\n4️⃣ Activate KIRO\n* Search for \"KIRO\" in the AWS search bar\n* Open the KIRO service\n* Ensure the region matches the IAM identity\n* Enable KIRO\n\n5️⃣ Add KIRO Users\n* Go to user settings\n* Add Users\n* Select access \"KIRO POWER / PRO / PRO+\"\n\n✅ Done.\n\nNotes:\n* Credits and eligibility may vary per account.\n* AWS can change the promo program at any time.\n* Don't forget to delete unused resources so credits don't run out silently.\n\nSemua ini bersifat tutorial, saya bisa berhasil bisa juga gagal. Mohon berhati hati dn di ikuti secara seksama.\n\nSaya tidak bisa banyak bantu, karna tergantung hoki mungkin hhee",
+    "features": [
+      "Kiro Power plan",
+      "Free credit 10k",
+      "Gratis wak hhee"
+    ],
+    "images": [
+      "/img/kiro-power-plan-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Ga ada link shorcut silakan berkreasi, Mohon maaf",
+        "url": "nothing"
+      }
+    ],
+    "color": "from-amber-500/20 to-orange-500/10"
+  },
+  {
     "id": "9",
     "title": "Gpt Workspace ( Bisnis Plan )😸",
     "category": "AI Tools / Web Dev",
