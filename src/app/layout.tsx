@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+const GA_ID = "G-7G96YEXEF5";
 
 export const metadata: Metadata = {
   title: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   creator: "adalahcredit",
   metadataBase: new URL("https://adalahcredit.vercel.app"),
   verification: {
-    google: process.env.NEXT_PUBLIC_GSC_ID || "",
+    google: "DinYk7pdd2KWrF7ci949ZhIWPn3Suv-x4xtRFXK3eak",
   },
   openGraph: {
     type: "website",
