@@ -1,5 +1,30 @@
 [
   {
+    "id": "12",
+    "title": "Claude Max 20x 6 Bulan Free 😸",
+    "category": "AI Tools",
+    "tag": "Dev",
+    "date": "2026-06-09",
+    "desc": "Thank you for everything you ship. Claude Max is on us.\nOpen-source maintainers and contributors kee...",
+    "body": "Thank you for everything you ship. Claude Max is on us.\nOpen-source maintainers and contributors keep the ecosystem running. The Claude for Open Source Program is our way of saying thank you for all your hard work, with 6 months of free Claude Max 20x. Apply now.\n\nYaa intinya harus buat orang yang punya repo bagus, sudah 3 bulan kurang lebih ada 5000 bintng, dan sudah ada 1juta npm npm download perbulannya.\n\nTapi kalo saya build suatu yang opensource mungkin bolehh kali yaa abang2 dibantu agar bisa sampai titik itu😸\nTenang ae nanti kita share pake 9router hhee",
+    "features": [
+      "Multi account",
+      "Premium access",
+      "Unlimited usage",
+      "Banyak lah pro nya bang"
+    ],
+    "images": [
+      "/img/claude-max-20x-6-bulan-free-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Detail Event",
+        "url": "https://claude.com/contact-sales/claude-for-oss"
+      }
+    ],
+    "color": "from-rose-500/20 to-pink-500/10"
+  },
+  {
     "id": "11",
     "title": "Kiro Power Plan 😸",
     "category": "AI Tools",
@@ -7,9 +32,20 @@
     "date": "2026-06-08",
     "desc": "Ini kiro power plan dengan beberapa tahapan. Mungkin ga semua ip device works cara ini, saya pribadi satu doang yang bisa di pake. Semua hal yang saya share bersifat uncommercial ga saya jual atau bagaimana, silakan ikuti page saya di thread @adalahdil",
     "body": "1️⃣ Register an AWS account\n* Type \"aws free tier\" in Google\n* Use a business email / custom domain (safer)\n* Must use Incognito Mode\n* After registration, you get $100 in AWS Credits\n\n2️⃣ Increase credits to $200\n* AWS has several tasks/get started challenges\n* Complete the tasks until you get $200\n* After finishing each mission, don't forget to terminate / delete databases, etc.\n\n3️⃣ Activate IAM Identity Center\n* Open AWS IAM Identity Center\n* Select region Frankfurt (eu-central-1) / us-east-1\n* Set up Identity Center\n* Add the users you want to use\n\n4️⃣ Activate KIRO\n* Search for \"KIRO\" in the AWS search bar\n* Open the KIRO service\n* Ensure the region matches the IAM identity\n* Enable KIRO\n\n5️⃣ Add KIRO Users\n* Go to user settings\n* Add Users\n* Select access \"KIRO POWER / PRO / PRO+\"\n\n✅ Done.\n\nNotes:\n* Credits and eligibility may vary per account.\n* AWS can change the promo program at any time.\n* Don't forget to delete unused resources so credits don't run out silently.\n\nSemua ini bersifat tutorial, saya bisa berhasil bisa juga gagal. Mohon berhati hati dn di ikuti secara seksama.\n\nSaya tidak bisa banyak bantu, karna tergantung hoki mungkin hhee",
-    "features": ["Kiro Power plan", "Free credit 10k", "Gratis wak hhee"],
-    "images": ["/img/kiro-power-plan-1.jpg"],
-    "links": [{"label": "Ga ada link shortcut silakan berkreasi, Mohon maaf", "url": "#"}],
+    "features": [
+      "Kiro Power plan",
+      "Free credit 10k",
+      "Gratis wak hhee"
+    ],
+    "images": [
+      "/img/kiro-power-plan-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Ga ada link shortcut silakan berkreasi, Mohon maaf",
+        "url": "#"
+      }
+    ],
     "color": "from-amber-500/20 to-orange-500/10"
   },
   {
@@ -20,9 +56,21 @@
     "date": "2026-06-08",
     "desc": "ChatGPT Team Free - 100% Authentic Codex Version (No referrals required)",
     "body": "ChatGPT Team Free - 100% Authentic Codex Version\n\n1. Truy cập website: https://oidc.oooooooooo.bond/\n2. Đăng ký tài khoản (có thể đăng ký bằng Gmail cho nhanh) - Chọn Authorize\n3. Tại trang dashboard - Điền tên người dùng, bấm Tạo và chọn Đăng nhập ChatGPT bên dưới\n4. Tại trang login ChatGPT, điền mail vừa tạo và phê duyệt đăng nhập và sử dụng\n\nMon maap pake bahasa asli, effort sedikit yaa bapak ibu sekalian. dan kalo bisa jangan maruk secukupnya saja 😸\n\nmungkin butuh sedikit skill disini. kalo memang urgent bisa dm ajaa, tapi saya balas satu satu yaa",
-    "features": ["Premium Fitur", "Codex", "Gratis sih yang pasti"],
-    "images": ["/img/gpt-workspace-bisnis-plan-1.jpg", "/img/gpt-workspace-bisnis-plan-2.jpg"],
-    "links": [{"label": "Open Tools", "url": "https://oidc.oooooooooo.bond"}],
+    "features": [
+      "Premium Fitur",
+      "Codex",
+      "Gratis sih yang pasti"
+    ],
+    "images": [
+      "/img/gpt-workspace-bisnis-plan-1.jpg",
+      "/img/gpt-workspace-bisnis-plan-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "Open Tools",
+        "url": "https://oidc.oooooooooo.bond"
+      }
+    ],
     "color": "from-blue-500/20 to-cyan-500/10"
   },
   {
@@ -33,9 +81,20 @@
     "date": "2026-06-08",
     "desc": "Time limited\nJadi waktu sangat terbatas, kouta terbatas juga",
     "body": "Ga ada tutorial lengkap, semua sesuai video yang ada di thread",
-    "features": ["Free credit", "Premium access", "Gratis 😹"],
-    "images": ["/img/figma-free-credit-1.jpg"],
-    "links": [{"label": "Akses", "url": "https://figma.bot/4o7EDMQ"}],
+    "features": [
+      "Free credit",
+      "Premium access",
+      "Gratis 😹"
+    ],
+    "images": [
+      "/img/figma-free-credit-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Akses",
+        "url": "https://figma.bot/4o7EDMQ"
+      }
+    ],
     "color": "from-violet-500/20 to-purple-500/10"
   },
   {
@@ -46,13 +105,31 @@
     "date": "2026-06-08",
     "desc": "Ga buat semua orang maaf, karna ini Adobe ga semua orang make lah. jadi yang butuh2 ajaa, free kok 😸✊",
     "body": "📌 How to Use:\n\n1. Click on any link above\n2. Sign in with a fresh new Adobe account\n3. You'll see the payment page showing $0\n4. Add your card and accept auto-pay\n5. No money will be deducted during activation\n6. Once you get access, open your banking/card app\n7. Cancel the auto-pay/subscription immediately\n\n⚠️ Important Notice\nAny payment details or cards you use will be completely your own responsibility.",
-    "features": ["1-4 bulan free trial", "Full Adobe CC access", "Cancel auto-pay setelah aktif"],
-    "images": ["/img/adobe-free-wak-1.jpg"],
+    "features": [
+      "1-4 bulan free trial",
+      "Full Adobe CC access",
+      "Cancel auto-pay setelah aktif"
+    ],
+    "images": [
+      "/img/adobe-free-wak-1.jpg"
+    ],
     "links": [
-      {"label": "🎉 1 Month Trial", "url": "https://commerce.adobe.com/store/checkout?items%5B0%5D%5Bid%5D=28F87AD5928EE98E4BF7A31025B729D4&cli=creative&co=US&lang=en&sdid=61PM7RQ2&mv=affiliate&svar=promotest"},
-      {"label": "🎉 2 Months Trial", "url": "https://commerce.adobe.com/store/checkout?items%5B0%5D%5Bid%5D=1D606ED3897254BD6BFA2E9EB7BD562C&items%5B0%5D%5Bq%5D=1&rrItems%5B0%5D%5Bid%5D=1D606ED3897254BD6BFA2E9EB7BD562C&cli=adobe_com&ctx=fp&co=US&sdid=XPCNGX62&mv=affiliate&lang=en&ss=commitment"},
-      {"label": "3 Months Trial", "url": "https://commerce.adobe.com/store/email?items%5B0%5D%5Bid%5D=857F93AE21F0F4B7F724E4564CE98D0D&cli=adobe_com&ctx=fp&co=US&lang=en"},
-      {"label": "4 Months Trial", "url": "https://commerce.adobe.com/store/checkout?items%5B0%5D%5Bid%5D=D0440AB0F2F7F2F2CB39657F45BC5D56&items%5B0%5D%5Bq%5D=1&rrItems%5B0%5D%5Bid%5D=D0440AB0F2F7F2F2CB39657F45BC5D56&cli=creative&co=US&lang=en&sdid=WT7FHSB9&mv=affiliate&ss=commitment"}
+      {
+        "label": "🎉 1 Month Trial",
+        "url": "https://commerce.adobe.com/store/checkout?items%5B0%5D%5Bid%5D=28F87AD5928EE98E4BF7A31025B729D4&cli=creative&co=US&lang=en&sdid=61PM7RQ2&mv=affiliate&svar=promotest"
+      },
+      {
+        "label": "🎉 2 Months Trial",
+        "url": "https://commerce.adobe.com/store/checkout?items%5B0%5D%5Bid%5D=1D606ED3897254BD6BFA2E9EB7BD562C&items%5B0%5D%5Bq%5D=1&rrItems%5B0%5D%5Bid%5D=1D606ED3897254BD6BFA2E9EB7BD562C&cli=adobe_com&ctx=fp&co=US&sdid=XPCNGX62&mv=affiliate&lang=en&ss=commitment"
+      },
+      {
+        "label": "3 Months Trial",
+        "url": "https://commerce.adobe.com/store/email?items%5B0%5D%5Bid%5D=857F93AE21F0F4B7F724E4564CE98D0D&cli=adobe_com&ctx=fp&co=US&lang=en"
+      },
+      {
+        "label": "4 Months Trial",
+        "url": "https://commerce.adobe.com/store/checkout?items%5B0%5D%5Bid%5D=D0440AB0F2F7F2F2CB39657F45BC5D56&items%5B0%5D%5Bq%5D=1&rrItems%5B0%5D%5Bid%5D=D0440AB0F2F7F2F2CB39657F45BC5D56&cli=creative&co=US&lang=en&sdid=WT7FHSB9&mv=affiliate&ss=commitment"
+      }
     ],
     "color": "from-sky-500/20 to-blue-500/10"
   },
@@ -64,9 +141,23 @@
     "date": "2026-06-07",
     "desc": "AI music & vocal studio berbasis AI. Masuk web login, masukin card selesai 😸",
     "body": "Ai ini semacam music, vocal studio berbasis Ai kurang lebih nya seperti itu.\n\nGa ada cara khusus masuk web nya login, masukin card yang korang punya selesai 😸\n\nNote kalo ga bisa pake vpn India bang ku 🙏😹",
-    "features": ["Music AI studio", "Vocal processing", "Free trial dengan card India"],
-    "images": ["/img/kits-ai-1.jpg", "/img/kits-ai-2.jpg", "/img/kits-ai-3.jpg", "/img/kits-ai-4.jpg"],
-    "links": [{"label": "Kits AI", "url": "https://kits.ai"}],
+    "features": [
+      "Music AI studio",
+      "Vocal processing",
+      "Free trial dengan card India"
+    ],
+    "images": [
+      "/img/kits-ai-1.jpg",
+      "/img/kits-ai-2.jpg",
+      "/img/kits-ai-3.jpg",
+      "/img/kits-ai-4.jpg"
+    ],
+    "links": [
+      {
+        "label": "Kits AI",
+        "url": "https://kits.ai"
+      }
+    ],
     "color": "from-emerald-500/20 to-teal-500/10"
   },
   {
@@ -77,9 +168,20 @@
     "date": "2026-06-07",
     "desc": "Grok AI works ga harus pake vpn kok. Dari pada beli wak, 6500 rupiah 😸",
     "body": "Bansos Dari Orang india 😸\nGrok Ai works ga harus pake vpn kok\n\nSaya pribadi belum coba karna udah kebanyakan subscription ga ke pake 🙂🙏\n\nDari pada beli wak, 6500 rupiah",
-    "features": ["Super Grok access", "Ga harus pake VPN", "Murah 6500 rupiah via reseller"],
-    "images": ["/img/grok-ai-1.jpg"],
-    "links": [{"label": "Grok AI", "url": "https://grok.com"}],
+    "features": [
+      "Super Grok access",
+      "Ga harus pake VPN",
+      "Murah 6500 rupiah via reseller"
+    ],
+    "images": [
+      "/img/grok-ai-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Grok AI",
+        "url": "https://grok.com"
+      }
+    ],
     "color": "from-rose-500/20 to-pink-500/10"
   },
   {
@@ -90,9 +192,22 @@
     "date": "2026-06-06",
     "desc": "Leonardo.ai Ai gokil buat create Image atau video, gratis via Canva Business plan",
     "body": "Bansos Dari Facebook\nLeonardo.ai Ai gokil buat create Image atau video\n\nCara claim:\n1. Create akun canva business\n2. Masuk ke website Leonardo.ai\n3. Login pake akun canva, kalo via invited pilot workspace yang canva business plan\n4. Kelar 😹\n\nFollow bang nanti saya drop canva business plan via invited. kurang lebih buat 90+ lah",
-    "features": ["8,500 tokens gratis", "AI Image generation", "AI Video creation", "Via Canva Business plan"],
-    "images": ["/img/leonardo-ai-1.jpg", "/img/leonardo-ai-2.jpg"],
-    "links": [{"label": "Leonardo.ai", "url": "https://leonardo.ai"}],
+    "features": [
+      "8,500 tokens gratis",
+      "AI Image generation",
+      "AI Video creation",
+      "Via Canva Business plan"
+    ],
+    "images": [
+      "/img/leonardo-ai-1.jpg",
+      "/img/leonardo-ai-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "Leonardo.ai",
+        "url": "https://leonardo.ai"
+      }
+    ],
     "color": "from-amber-500/20 to-orange-500/10"
   },
   {
@@ -103,9 +218,22 @@
     "date": "2026-06-06",
     "desc": "Notion Pro gratis 1 bulan, satu CC/VC bisa buat beberapa account 😹",
     "body": "Buat tutor nya:\n1. Buat akun baru, misal pake gmail login\n2. Pilih penggunaan \"For work\"\n3. Lewati invite team dengan klik \"Continue\"\n4. Pilih plan Business dan klik \"Try free for 30 days\"\n5. Isi data pembayaran\n\nSebagai catatan satu vc atau cc bisa buat beberapa account pembayaran 😹\n\nBuat model, ada di gambar dari Claude, Gemini, GPT dll. dia jatuh nya ai chat gitu, kalo pake api paling buat MCP.",
-    "features": ["30 hari free trial", "Business plan full access", "1 card bisa multi account", "AI chat included"],
-    "images": ["/img/notion-pro-1.jpg", "/img/notion-pro-2.jpg"],
-    "links": [{"label": "Notion", "url": "https://notion.so"}],
+    "features": [
+      "30 hari free trial",
+      "Business plan full access",
+      "1 card bisa multi account",
+      "AI chat included"
+    ],
+    "images": [
+      "/img/notion-pro-1.jpg",
+      "/img/notion-pro-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "Notion",
+        "url": "https://notion.so"
+      }
+    ],
     "color": "from-amber-500/20 to-orange-500/10"
   },
   {
@@ -116,9 +244,21 @@
     "date": "2026-06-05",
     "desc": "Domain gratis .my.id .biz.id .web.id — promo 5-7 Juni 2026 pake code M1n4t",
     "body": "Free domain my.id biz.id web.id\n\nCara claim cukup ke website idwebhost.com/domain\nBeli domain promo diatas tadi\nMasukan code promo: M1n4t\n\nPeriode promo 5 - 7 Juni 2026",
-    "features": ["Domain .my.id gratis", "Domain .biz.id gratis", "Domain .web.id gratis", "Code promo: M1n4t"],
-    "images": ["/img/free-domain-1.jpg"],
-    "links": [{"label": "IDWebHost Domain", "url": "https://idwebhost.com/domain"}],
+    "features": [
+      "Domain .my.id gratis",
+      "Domain .biz.id gratis",
+      "Domain .web.id gratis",
+      "Code promo: M1n4t"
+    ],
+    "images": [
+      "/img/free-domain-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "IDWebHost Domain",
+        "url": "https://idwebhost.com/domain"
+      }
+    ],
     "color": "from-blue-500/20 to-cyan-500/10"
   },
   {
@@ -129,9 +269,22 @@
     "date": "2026-06-05",
     "desc": "Daftar dapet credit 500k. Bagus buat coding assistance dan build autonomous agent.",
     "body": "Provider b.ai\n\nCara claim cukup daftar udah pasti dapet credit 500k. yaa kalo di convert cuma 0,5$ kalo di rupiahkan 9k diluar pajak 🥀\n\nApa yang sya baca dia bagus buat coding assistance, build autonomous agent pake economic identity karna dia punya output web3 agent, a2a settlement yang cukup bagus.\n\nDia juga punya multi agent, kayak GPT-5, Claude 4, Gemini, Deepseek, Minimax, Kimi",
-    "features": ["500k credit gratis", "Multi agent (GPT-5, Claude 4, Gemini, dll)", "Coding assistance", "Web3 agent & A2A settlement"],
-    "images": ["/img/b-ai-1.jpg", "/img/b-ai-2.jpg"],
-    "links": [{"label": "b.ai", "url": "https://b.ai"}],
+    "features": [
+      "500k credit gratis",
+      "Multi agent (GPT-5, Claude 4, Gemini, dll)",
+      "Coding assistance",
+      "Web3 agent & A2A settlement"
+    ],
+    "images": [
+      "/img/b-ai-1.jpg",
+      "/img/b-ai-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "b.ai",
+        "url": "https://b.ai"
+      }
+    ],
     "color": "from-indigo-500/20 to-blue-500/10"
   },
   {
@@ -142,9 +295,22 @@
     "date": "2026-06-04",
     "desc": "Kiro AI coding assistant plan $20 gratis. Pake Blu BCA, Mandiri Visa, atau Coca crypto card.",
     "body": "Harus nya masih bisa promo nya sampai sekarang, buat cara nya:\n1. Buat akun baru, tapi kalo mau cek akun lama juga gapapa\n2. Langsung upgrade plan, bebas mau pake cara copy paste link atau ke setting\n3. Pilih plan yang 20$\n4. Jika sudah masuk ke dalam page pembayaran, isi semua data nya\n5. Selesai\n\nBase on experience, kartu yang berhasil buat pembayaran:\n- Blu by BCA\n- Mandiri yang ada logo visa nya\n- Coca crypto card wallet 🙏",
-    "features": ["Plan $20 gratis", "Blu BCA works", "Mandiri Visa works", "Coca crypto card works"],
-    "images": ["/img/kiro-pro-1.jpg", "/img/kiro-pro-2.jpg"],
-    "links": [{"label": "Kiro", "url": "https://kiro.dev"}],
+    "features": [
+      "Plan $20 gratis",
+      "Blu BCA works",
+      "Mandiri Visa works",
+      "Coca crypto card works"
+    ],
+    "images": [
+      "/img/kiro-pro-1.jpg",
+      "/img/kiro-pro-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "Kiro",
+        "url": "https://kiro.dev"
+      }
+    ],
     "color": "from-fuchsia-500/20 to-pink-500/10"
   },
   {
@@ -155,9 +321,22 @@
     "date": "2026-06-03",
     "desc": "Gemini Advanced 1 tahun gratis — event Google Pixel. Bisa dapet mulai dari 1$ via crypto.",
     "body": "GEMINI 1 TAHUN \"FREE\"\n\nRecap ttg Gemini free, event harusnya diperuntukan bagi pengguna Google Pixel yang pasti nya kemungkinan besar bukan user indo, misal US.\n\nBuat dapetin ini paling murah ada di 1$ Dan itu harus di convert ke crypto, ntah usdt atau lainnya atau pake pembayaran alipay, karna user yang share buat dapetin ini rata2 dari china.\n\nBuat yang mau nyoba pake link di bawah 😸",
-    "features": ["1 tahun Gemini Advanced", "Mulai dari 1$ via crypto/alipay", "Event Google Pixel", "Region US recommended"],
-    "images": ["/img/gemini-free-1.jpg", "/img/gemini-free-2.jpg"],
-    "links": [{"label": "Coming Soon", "url": "#"}],
+    "features": [
+      "1 tahun Gemini Advanced",
+      "Mulai dari 1$ via crypto/alipay",
+      "Event Google Pixel",
+      "Region US recommended"
+    ],
+    "images": [
+      "/img/gemini-free-1.jpg",
+      "/img/gemini-free-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "Coming Soon",
+        "url": "#"
+      }
+    ],
     "color": "from-blue-500/20 to-violet-500/10"
   }
 ]
