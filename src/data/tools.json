@@ -1,5 +1,33 @@
 [
   {
+    "id": "15",
+    "title": "Gemini/Google Pro 12 Bulan",
+    "category": "Productivity",
+    "tag": "Essential",
+    "date": "2026-06-09",
+    "desc": "Yaa tutor nya mah sama aja kayak gpt yang pake telegram\n\nTapi ini cuma butuh 4 code referral, atau k...",
+    "body": "Yaa tutor nya mah sama aja kayak gpt yang pake telegram\n\nTapi ini cuma butuh 4 code referral, atau kalo duit 8k± hheee😸✊",
+    "features": [
+      "No VPN needed",
+      "Multi account",
+      "Premium access",
+      "Unlimited usage"
+    ],
+    "images": [
+      "/img/gemini-google-pro-12-bulan-1.jpg",
+      "/img/gemini-google-pro-12-bulan-2.jpg",
+      "/img/gemini-google-pro-12-bulan-3.jpg",
+      "/img/gemini-google-pro-12-bulan-4.jpg"
+    ],
+    "links": [
+      {
+        "label": "Open Bot",
+        "url": "https://t.me/gemini12pro_bot?start=inv_CA-7MBSB8TP"
+      }
+    ],
+    "color": "from-fuchsia-500/20 to-pink-500/10"
+  },
+  {
     "id": "14",
     "title": "Codex Harga Naspad wak😸🙏",
     "category": "AI Tools",
@@ -24,8 +52,8 @@
       }
     ],
     "color": "from-fuchsia-500/20 to-pink-500/10"
-    },
-    {
+  },
+  {
     "id": "13",
     "title": "Gpt Plus 1 Bulan😸",
     "category": "AI Tools",
