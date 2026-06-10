@@ -1,5 +1,33 @@
 [
   {
+    "id": "16",
+    "title": "Tools Weavy",
+    "category": "Design",
+    "tag": "Promo",
+    "date": "2026-06-10",
+    "desc": "Ga tau lagi dah wak ini apaan hehe, karna jujur tadi nya ga mau up ini tapi karna banyk yang jual ma...",
+    "body": "Ga tau lagi dah wak ini apaan hehe, karna jujur tadi nya ga mau up ini tapi karna banyk yang jual mari kita up😸\n\nInti dari provaider ini kayak nya singkat nya kayak provaider image atau video ai maker, ada dari kling ada dari grok dll. dan yaa lumayan sih.\n\nMasuk ke disclaimer bahwa jangan menjadikan ini bahan untuk dijual, gunakan untuk keperluan pribadi diluar commercial usahakan yaa bapak ibu😸\n\nMasuk Ke dalam tutorial :\n1. Login Ke Website nya\n2. Create new file\n3. Klik Kanan atau tahan, dan pilih import model\n4. Kemudian Masukan Code Yang ada di bawah ini ( Salh satu aja yaa )\n\nseedance 2:\nbytedance\n/\nseedance-2.0\n\nGROK:\nxai\n/\ngrok-imagine-image\n\nKLING:\nkwaivgi\n/\nkling-v3-video\n\nKLING OMNI:\nkwaivgi\n/\nkling-v3-omni-video\n\n5. Pokok nya masukin satu satu, kayak misal \n\nbytedance\n/\nseedance-2.0\n\nSudah kurang lebih begitu saja😸\nApa guna nya? kurang lebih ini prompt injection, jadi awal nya kita ga bisa pake model ai yang di atas, karna harus langganan dengan ini kita bisa pake dengan 10 credit😹",
+    "features": [
+      "No VPN needed",
+      "Premium access",
+      "Unlimited usage"
+    ],
+    "images": [
+      "/img/tools-weavy-1.jpg"
+    ],
+    "links": [
+      {
+        "label": "Join Telegram Untuk Ajukan Pertanyaan",
+        "url": "https://t.me/+LP7nrF5aYa04ZGU9"
+      },
+      {
+        "label": "Website Login",
+        "url": "https://app.weavy.ai"
+      }
+    ],
+    "color": "from-emerald-500/20 to-teal-500/10"
+  },
+  {
     "id": "15",
     "title": "Gemini/Google Pro 12 Bulan",
     "category": "Productivity",
