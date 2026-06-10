@@ -3,11 +3,13 @@
 import { use, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Copy, ExternalLink, Check, Star, Zap, Globe, Layers, Search, Sparkles, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, Copy, ExternalLink, Check, Star, Zap, Globe, Layers, Search, Sparkles, ChevronLeft, ChevronRight, Send } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import toolsData from "@/data/tools.json";
 
 const TOOLS_MAP = Object.fromEntries(toolsData.map((t) => [t.id, t]));
+const TELEGRAM_SUPPORT_URL = "https://t.me/+LP7nrF5aYa04ZGU9";
+const TELEGRAM_SUPPORT_LABEL = "Join Telegram Untuk Ajukan Pertanyaan";
 
 const CATEGORY_ICON: Record<string, typeof Star> = {
   "AI Tools": Zap,
@@ -117,7 +119,11 @@ export default function ToolPageClient({ params }: { params: Promise<{ id: strin
             </div>
 
             <div className="pt-2 flex flex-col sm:flex-row gap-3 flex-wrap">
-              {tool.links.map((link, i) => (
+              <a href={TELEGRAM_SUPPORT_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-violet-500/15 border border-violet-400/20 text-violet-100 rounded-xl px-5 py-3 text-sm font-semibold hover:bg-violet-500/20 transition-colors">
+                <Send className="size-4" />
+                <span>{TELEGRAM_SUPPORT_LABEL}</span>
+              </a>
+              {tool.links.filter((link) => link.url !== TELEGRAM_SUPPORT_URL).map((link, i) => (
                 <a key={i} href={link.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-white text-black rounded-xl px-5 py-3 text-sm font-semibold hover:bg-white/90 transition-colors">
                   <ExternalLink className="size-4" />
                   <span>{link.label}</span>

@@ -9,6 +9,11 @@ const GH_TOKEN = process.env.GH_TOKEN;
 const REPO_PATH = path.resolve(__dirname, "..");
 const TOOLS_JSON = path.join(REPO_PATH, "src/data/tools.json");
 const PUBLIC_IMG = path.join(REPO_PATH, "public/img");
+const TELEGRAM_SUPPORT_LINK = {
+  label: "Join Telegram Untuk Ajukan Pertanyaan",
+  url: "https://t.me/+LP7nrF5aYa04ZGU9",
+};
+const MAX_IMAGES = 5;
 
 const CATEGORIES = ["AI Tools", "Design", "Web Dev", "Productivity", "SEO", "Writing"];
 const TAGS = ["Popular", "New", "Essential", "Dev", "Terbatas", "Limited", "Promo"];
@@ -105,7 +110,7 @@ async function handleMessage(msg) {
 
     case "images":
       if (msg.photo) {
-        if (s.data.images.length >= 5) return send(chatId, "Maks 5 foto.", inlineKb([[btn("✅ Selesai → Link", "img_done")]]));
+        if (s.data.images.length >= MAX_IMAGES) return send(chatId, `Maks ${MAX_IMAGES} foto.`, inlineKb([[btn("✅ Selesai → Link", "img_done")]]));
         const photo = msg.photo[msg.photo.length - 1];
         try {
           const { buffer, ext } = await downloadFile(photo.file_id);
@@ -114,7 +119,7 @@ async function handleMessage(msg) {
           const filename = `${slug}-${s.data.images.length + 1}${ext}`;
           fs.writeFileSync(path.join(PUBLIC_IMG, filename), buffer);
           s.data.images.push(`/img/${filename}`);
-          return send(chatId, `🖼 Foto ${s.data.images.length}/5 tersimpan.`, inlineKb([
+          return send(chatId, `🖼 Foto ${s.data.images.length}/${MAX_IMAGES} tersimpan.`, inlineKb([
             [btn("✅ Selesai → Link", "img_done")],
             [btn("❌ Cancel", "act_cancel")]
           ]));
@@ -314,10 +319,17 @@ function showPreview(chatId) {
 function publishTool(data) {
   const tools = JSON.parse(fs.readFileSync(TOOLS_JSON, "utf-8"));
   const newId = String(Math.max(...tools.map(t => parseInt(t.id)), 0) + 1);
+  if ((data.images || []).length > MAX_IMAGES) {
+    throw new Error(`Maksimal ${MAX_IMAGES} gambar.`);
+  }
+  const links = Array.isArray(data.links) ? [...data.links] : [];
+  if (!links.some((link) => link.url === TELEGRAM_SUPPORT_LINK.url)) {
+    links.unshift(TELEGRAM_SUPPORT_LINK);
+  }
   tools.unshift({
     id: newId, title: data.title, category: data.category, tag: data.tag,
     date: new Date().toISOString().split("T")[0], desc: data.desc, body: data.body,
-    features: data.features, images: data.images, links: data.links,
+    features: data.features, images: data.images, links,
     color: COLORS[tools.length % COLORS.length],
   });
   fs.writeFileSync(TOOLS_JSON, JSON.stringify(tools, null, 2) + "\n");
@@ -327,7 +339,12 @@ function publishTool(data) {
 function saveTool(tool) {
   const tools = JSON.parse(fs.readFileSync(TOOLS_JSON, "utf-8"));
   const idx = tools.findIndex(t => t.id === tool.id);
-  if (idx >= 0) tools[idx] = tool;
+  const links = Array.isArray(tool.links) ? [...tool.links] : [];
+  if (!links.some((link) => link.url === TELEGRAM_SUPPORT_LINK.url)) {
+    links.unshift(TELEGRAM_SUPPORT_LINK);
+  }
+  const updatedTool = { ...tool, links };
+  if (idx >= 0) tools[idx] = updatedTool;
   fs.writeFileSync(TOOLS_JSON, JSON.stringify(tools, null, 2) + "\n");
   gitPush(`edit tool - ${tool.title}`);
 }
