@@ -1,5 +1,36 @@
 [
   {
+    "id": "19",
+    "title": "Free VPS / Hosting 😸",
+    "category": "SEO",
+    "tag": "Limited",
+    "date": "2026-06-12",
+    "desc": "Ga ada tutorial dll\n\nLangsung aja ke website nya, pilih hosting atau vps atau dua duanya. kalo hosti...",
+    "body": "Ga ada tutorial dll\n\nLangsung aja ke website nya, pilih hosting atau vps atau dua duanya. kalo hosting free 30D kalo vps free 7d",
+    "features": [
+      "Premium access"
+    ],
+    "images": [
+      "/img/free-vps-hosting-1.jpg",
+      "/img/free-vps-hosting-2.jpg"
+    ],
+    "links": [
+      {
+        "label": "Join Telegram Untuk Ajukan Pertanyaan",
+        "url": "https://t.me/+LP7nrF5aYa04ZGU9"
+      },
+      {
+        "label": "Link VPS",
+        "url": "https://www.namecheap.com/hosting/vps/"
+      },
+      {
+        "label": "Link Hosting",
+        "url": "https://www.namecheap.com/hosting/shared/"
+      }
+    ],
+    "color": "from-amber-500/20 to-orange-500/10"
+  },
+  {
     "id": "18",
     "title": "AI coworker Gokil awak😸",
     "category": "Productivity",
