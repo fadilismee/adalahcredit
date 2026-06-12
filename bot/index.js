@@ -5,7 +5,7 @@ const { execSync } = require("child_process");
 const https = require("https");
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const GH_TOKEN = process.env.GH_TOKEN;
+const GH_TOKEN = process.env.GITHUB_TOKEN;
 const REPO_PATH = path.resolve(__dirname, "..");
 const TOOLS_JSON = path.join(REPO_PATH, "src/data/tools.json");
 const PUBLIC_IMG = path.join(REPO_PATH, "public/img");
